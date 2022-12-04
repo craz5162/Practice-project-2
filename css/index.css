@@ -1,0 +1,22 @@
+.top-header{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.left-site{
+      padding-left: 70px;
+}
+.left-site button{
+      border: none;
+      padding: 15px 50px;
+      background-color: darkorange;
+      border-radius: 25px;
+}
+.left-site h1{
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: darkorange;
+}
+.right-site img{
+      padding: 100px;
+}
