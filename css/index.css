@@ -1,3 +1,7 @@
+body{
+      margin: 0;
+      padding: 0;
+}
 .top-header {
       display: flex;
       align-items: center;
@@ -7,7 +11,7 @@
 }
 
 .left-site {
-      padding-left: 70px;
+      padding-left: 130px;
       margin-top: 60px;
 }
 
@@ -25,7 +29,7 @@
 }
 
 .right-site img {
-      padding-right: 100px;
+      padding-right: 130px;
 }
 
 .top-bootom {
@@ -43,7 +47,7 @@
       color: darkorange;
 }
 .right-site-2 p{
-      padding-right: 90px;
+      padding-right: 130px;
 }
 .right-site-2 button {
       border: none;
@@ -105,5 +109,36 @@
       width: 450px;
       height: 370px;
       border-radius: 12px;
+}
+
+.footer-container{
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+      margin-top: 100px;
+      padding: 50px;
+      margin-left: 100px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      border-radius: 15px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.footer{
+      background-color: black;
+      padding: 40px;
+}
+.footer h1{
+      text-align: center;
+      color:darkorange;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.footer h4{
+      text-align: center;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
 }
 
